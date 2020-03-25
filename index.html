@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoronaVirus COVID-19</title>
+  <meta name="description" content="Corona virus coronavirus covid-19 game">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="curtain-wrap curtain">
+    <!-- score -->
+    <div id="score" class="score d-none">
+      <img class="score__img" src="img/score-img.png" alt="scoreImage">
+      <span class="score__text">SCORE</span>
+      <span class="score__number"></span>
+    </div>
+    <div id="level" class="level d-none">
+      <img class="level__img" src="img/level-img.png" alt="lvlImage">
+      <span class="level__text">LEVEL</span>
+      <span class="level__number"></span>
+    </div>
+    <!-- jumping heart -->
+    <img id="virus" class="d-none" src="img/virus.png" alt="Virus">
+    <!-- button "start play" -->
+    <div class="title">
+      <p class="title__text">
+        The goal of the game is to prevent the virus from surviving!
+      </p>
+      <button class="btn-start-play">Play</button>
+    </div>
+  </div>
+
+  <!-- sound when clicked in heart` -->
+  <audio id="soundClick" src="sound/punch.wav"></audio>
+  <audio id="soundNextLvl" src="sound/tada.mp3"></audio>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script> -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
