@@ -34,7 +34,7 @@ $("#virus").click(function (e) {
     yourLvl++
     speed = 1700;
     $("body").css("background", "url(" + "img/bkg-2.jpg" + ") center/cover");
-    $("body").css("cursor", "url(" + "../img/crosshair-2.png" + ") 25 25, auto");
+    $("body").css("cursor", "url(" + "img/crosshair-2.png" + ") 25 25, auto");
     return nextLevel();
   }
   if (score === 20) {
@@ -42,7 +42,7 @@ $("#virus").click(function (e) {
     yourLvl++
     speed = 1400;
     $("body").css("background", "url(" + "img/bkg-3.jpg" + ") center/cover");
-    $("body").css("cursor", "url(" + "../img/crosshair-3.png" + ") 25 25, auto");
+    $("body").css("cursor", "url(" + "img/crosshair-3.png" + ") 25 25, auto");
     return nextLevel();
   }
   if (score === 30) {
